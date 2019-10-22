@@ -53,18 +53,3 @@ function orderMeSomeFood() {
 orderMeSomeFood()
     .then(function(result) {console.log(result)})
     .catch(function(result) {console.log(result)});
-
-// let orderMeSomeFood = async () => {
-//     let promise = new Promise((resolve, reject) => {
-//         let notLunch = new Error("It is not lunch time.")
-//         if (lunchTime) {
-//             resolve({food: "Arepas", drink: "Mojito"})
-//         } else {
-//             reject(notLunch)
-//         }
-//     })
-//     let result = await promise;
-//     console.log(result);
-// }
-
-// orderMeSomeFood()
